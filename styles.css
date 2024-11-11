@@ -1,0 +1,130 @@
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado y Navegación */
+header {
+    background-color: #dfdb14;
+    color: #242423;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Fondo de cada página */
+body.index {
+    background-color: #f0f8ff; /* Fondo para la página de Inicio */
+}
+
+body.sistemas-informaticos {
+    background-color: #e6ffe6; /* Fondo para Sistemas Informáticos */
+}
+
+body.motivo-eleccion {
+    background-color: #ffe6e6; /* Fondo para Motivo de Elección */
+}
+
+body.contacto {
+    background-color: #e6e6ff; /* Fondo para Contacto */
+}
+
+/* Estilo del contenido */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilo para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Botones en formato caja */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Botón aumenta ligeramente de tamaño al pasar el cursor */
+}
+
+/* Estilo para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
